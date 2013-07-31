@@ -13,12 +13,12 @@
     </feature>
     <plugins>
     </plugins>
-    <feature name="Geolocation">
-        <param name="android-package" value="org.apache.cordova.core.GeoBroker" />
-    </feature>
     <access origin="*" />
     <preference name="useBrowserHistory" value="true" />
     <preference name="exit-on-suspend" value="false" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.core.GeoBroker" />
+    </feature>
 </widget>
